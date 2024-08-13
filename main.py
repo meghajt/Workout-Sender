@@ -3,14 +3,14 @@ import datetime
 from pymongo import MongoClient
 
 # Information about the email sender and receiver and the app password to access the sender email
-EMAIL_RECEIVER = "ENTER_YOUR_PHONE_NUMBER_AS_AN_EMAIL"
-EMAIL_SENDER = "EMAIL_YOU_SEND_WORKOUTS_FROM"
-EMAIL_PASSWORD = "APP_PASSWORD_FOR_SENDER_EMAIL"
+EMAIL_RECEIVER = ""
+EMAIL_SENDER = ""
+EMAIL_PASSWORD = ""
 
-# MongoDB connection details
-MONGO_URI = "mongodb://your_mongo_db_uri"
-DB_NAME = "your_db_name"
-COLLECTION_NAME = "your_collection_name"
+# MongoDB details
+MONGO_URI = ""
+DB_NAME = ""
+COLLECTION_NAME = ""
 
 # Establish connection to MongoDB
 client = MongoClient(MONGO_URI)
